@@ -72,3 +72,6 @@ atlassian*
 /generated/*
 !/generated/.htaccess
 .DS_Store
+
+# Printful credentials - NEVER commit
+printful.env
