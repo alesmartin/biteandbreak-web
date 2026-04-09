@@ -1,0 +1,195 @@
+/* ============================================
+   BiteBreak Luxury — White Fashion Theme
+   ============================================ */
+
+:root {
+  --color-black:      #000000;
+  --color-white:      #ffffff;
+  --color-gold:       #c9a96e;
+  --color-gold-light: #e8d5b0;
+  --color-gray-dark:  #111111;
+  --color-gray-light: #f5f5f5;
+  --color-gray-mid:   #e0e0e0;
+  --color-gray-text:  #666666;
+}
+
+/* --- Base --- */
+body,
+html {
+  background-color: #fff !important;
+  color: #111 !important;
+}
+
+a { color: #111; }
+a:hover { color: #c9a96e; }
+
+/* --- Header --- */
+.page-header,
+.page-header .panel.wrapper,
+.header.content,
+.nav-sections {
+  background-color: #fff !important;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+/* --- Navigation --- */
+.navigation a,
+.nav-sections-item-title a {
+  color: #111 !important;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.navigation a:hover { color: #c9a96e !important; }
+
+/* --- Product Grid --- */
+.product-item {
+  background-color: #fff !important;
+  border: 1px solid #e0e0e0;
+  transition: border-color 0.3s ease;
+}
+.product-item:hover { border-color: #c9a96e; }
+
+.product-item-name a {
+  color: #111 !important;
+  font-size: 13px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.price-box .price {
+  color: #111 !important;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+}
+
+/* --- Buttons --- */
+.action.primary,
+button.action.primary,
+.btn-primary {
+  background-color: #111 !important;
+  border: 1px solid #111 !important;
+  color: #fff !important;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  font-size: 11px;
+  transition: all 0.3s ease;
+}
+.action.primary:hover {
+  background-color: #c9a96e !important;
+  border-color: #c9a96e !important;
+  color: #fff !important;
+}
+
+.action.secondary,
+button {
+  background-color: transparent !important;
+  border: 1px solid #ccc !important;
+  color: #111 !important;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-size: 11px;
+}
+.action.secondary:hover,
+button:hover {
+  border-color: #c9a96e !important;
+  color: #c9a96e !important;
+}
+
+/* --- Forms --- */
+input,
+select,
+textarea {
+  background-color: #fff !important;
+  border: 1px solid #ccc !important;
+  color: #111 !important;
+}
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: #c9a96e !important;
+  outline: none !important;
+  box-shadow: 0 0 0 1px #c9a96e !important;
+}
+input::placeholder,
+textarea::placeholder { color: #aaa !important; }
+
+/* --- Category Page Title --- */
+.page-title span,
+.category-description,
+h1, h2, h3, h4, h5, h6 {
+  color: #111 !important;
+}
+
+/* --- Breadcrumbs --- */
+.breadcrumbs a { color: #999; }
+.breadcrumbs strong { color: #c9a96e; }
+
+/* --- Sidebar / Filters --- */
+.sidebar,
+.filter-options,
+.filter-options-content {
+  background-color: #f5f5f5 !important;
+  border-color: #e0e0e0 !important;
+}
+.filter-options-title { color: #111 !important; }
+
+/* --- Footer --- */
+.page-footer,
+.footer.content {
+  background-color: #111 !important;
+  border-top: 1px solid #e0e0e0;
+  color: #aaa !important;
+}
+.page-footer a { color: #aaa !important; }
+.page-footer a:hover { color: #c9a96e !important; }
+.footer.content .block.newsletter { background-color: #1a1a1a; }
+
+/* --- Mini Cart --- */
+.minicart-wrapper .action.showcart .counter.qty {
+  background-color: #c9a96e;
+  color: #fff;
+}
+
+/* --- Messages --- */
+.message.info,
+.message.notice { background-color: #f5f5f5; color: #666; }
+.message.error { background-color: #fff0f0; color: #cc0000; }
+.message.success { background-color: #f0fff0; color: #006600; }
+
+/* --- Product Detail Page --- */
+.product-info-main .page-title span { color: #111; }
+.product-info-price .price { color: #111; font-size: 24px; }
+.product.attribute.description,
+.product.attribute.overview { color: #666 !important; }
+
+/* --- Tables --- */
+table { background-color: #fff !important; }
+th { color: #111 !important; border-bottom: 1px solid #e0e0e0 !important; }
+td { color: #444 !important; border-bottom: 1px solid #f0f0f0 !important; }
+
+/* --- Pagination --- */
+.pages a.page,
+.pages strong.page { color: #111 !important; }
+.pages a.page:hover { color: #c9a96e !important; }
+
+/* --- Toolbar --- */
+.toolbar-products,
+.toolbar { background-color: #fff !important; }
+.toolbar select,
+.sorter select {
+  background-color: #fff !important;
+  color: #111 !important;
+  border-color: #ccc !important;
+}
+
+/* --- Loading overlay --- */
+.loading-mask { background: rgba(255,255,255,0.8) !important; }
+
+/* --- Typography refinement --- */
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  letter-spacing: 0.02em;
+}
+.page-title { letter-spacing: 0.2em; text-transform: uppercase; }

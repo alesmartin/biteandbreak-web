@@ -83,6 +83,7 @@
         "phpseclib/phpseclib": "^3.0",
         "psr/log": "^2 || ^3",
         "ramsey/uuid": "^4.2",
+        "swissup/theme-frontend-breeze-evolution": "^2.5",
         "symfony/console": "^6.4",
         "symfony/intl": "^6.4",
         "symfony/process": "^6.4",
@@ -404,4 +405,3 @@
         }
     }
 }
-
